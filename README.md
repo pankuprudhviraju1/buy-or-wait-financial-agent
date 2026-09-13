@@ -34,6 +34,8 @@ Messages and images are always treated as untrusted evidence. Embedded instructi
 
 Python 3.10 or newer is sufficient; there are no third-party dependencies.
 
+This public repository intentionally excludes the participant financial dataset. Copy the official challenge's `dataset/` directory into the repository root before running, or pass its existing location through `--dataset`.
+
 ```bash
 python3 code/main.py --dataset dataset --output output.csv
 ```
@@ -73,7 +75,7 @@ code/
     ├── main.py                 # Independent evaluator
     └── usage_report.md         # Final-run token and cost accounting
 
-dataset/                        # Participant-facing challenge data
+dataset/                        # External participant data; not committed publicly
 output.csv                      # Predictions for all evaluation requests
 code.zip                        # Upload-ready source archive
 chat_transcript.txt             # Curated development prompts
