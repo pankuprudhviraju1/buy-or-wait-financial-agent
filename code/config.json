@@ -1,0 +1,7 @@
+{
+  "forecast_days": 90,
+  "variable_intervals_days": [5, 7, 10, 14, 21],
+  "maximum_spending_changes": 3,
+  "money_rounding": "ROUND_HALF_UP",
+  "runtime_model_calls": false
+}
